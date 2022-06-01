@@ -1,4 +1,6 @@
-compilation and run times in julia 1.5.4 a 1.6.0
+Compilation and run times in julia 1.5.4, 1.6.6, 1.7.3 and 1.8.0-rc1 of some edge case bottlenecks.
+
+It contains `main.jl` with the original edge-case and the `main_faster.jl`, which has some optimizations to be more type stable.
 
 ```
 C:\Projects\something\julia_1_6_benchmarks>"C:\Users\racinsky\AppData\Local\Programs\Julia 1.5.4\bin\julia.exe" mill.jl
@@ -25,4 +27,4 @@ C:\Projects\something\julia_1_6_benchmarks>C:\Users\racinsky\AppData\Local\Progr
   52.100 μs (323 allocations: 17.14 KiB)
 ```
 
-compilation is slower, but runtime is faster.
+compilation is slower, but runtime is faster in 1.6.
