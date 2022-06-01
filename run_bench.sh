@@ -1,3 +1,9 @@
-"C:\Users\racinsky\AppData\Local\Programs\Julia 1.5.4\bin\julia.exe" mill.jl
-C:\Users\racinsky\AppData\Local\Programs\Julia-1.6.6\bin\julia.exe mill.jl
-C:\Users\racinsky\AppData\Local\Programs\Julia-1.7.2\bin\julia.exe mill.jl
+~/julia-1.5.4/bin/julia main.jl
+~/julia-1.6.6/bin/julia main.jl
+~/julia-1.7.3/bin/julia main.jl
+~/julia-1.8.0-rc1/bin/julia main.jl
+
+~/julia-1.5.4/bin/julia main_faster.jl
+~/julia-1.6.6/bin/julia main_faster.jl
+~/julia-1.7.3/bin/julia main_faster.jl
+~/julia-1.8.0-rc1/bin/julia main_faster.jl
